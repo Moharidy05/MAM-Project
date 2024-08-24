@@ -1,0 +1,131 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #e8e8e8, #ffffff);
+    min-height: 100vh;
+}
+
+/* Custom Header Styling */
+header {
+    background-color: white;
+}
+
+/* Custom Menu Toggle */
+.menu-toggle {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/* Mobile Search Bar Toggle */
+@media (max-width: 768px) {
+    .search-bar {
+        width: 100%;
+        display: none;
+    }
+
+    .search-bar.active {
+        display: flex;
+    }
+}
+
+/* Carousel Custom Styling */
+.carousel-inner .carousel-item {
+    height: 400px;
+}
+
+.carousel-inner .carousel-item .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Additional Responsiveness */
+@media (max-width: 576px) {
+    .carousel-inner .carousel-item {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Footer Styling */
+footer {
+    background-color: transparent;
+    color: #333;
+}
+
+footer a {
+    color: #333;
+}
+
+/* Search Box Icon Styling */
+.search-box button {
+    background-color: #e8e8e8;
+    border: none;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.search-box button:hover {
+    background-color: #d8d8d8;
+}
+
+.search-box button i {
+    color: #333;
+}
+
+:root {
+    --primary-color: #4a4e69;
+    --secondary-color: #9a8c98;
+    --accent-color: #c9ada7;
+    --background-color: #f2e9e4;
+    --text-color: #22223b;
+}
+
+body {
+    background: linear-gradient(to bottom, var(--background-color), #ffffff);
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--background-color);
+}
+
+.search-box button {
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+}
+
+.search-box button:hover {
+    background-color: var(--primary-color);
+}
+
+.search-box button i {
+    color: var(--background-color);
+}
+
+footer {
+    color: var(--text-color);
+}
+
+footer a {
+    color: var(--primary-color);
+}
+
+/* Update any other blue colors in your HTML */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+.bg-primary {
+    background-color: var(--primary-color) !important;
+}
