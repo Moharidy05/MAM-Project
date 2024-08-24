@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport News</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container-fluid bg-light py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <h1>Sport News</h1>
+            </div>
+            <nav class="d-none d-md-block">
+                <ul id="nav-menu" class="nav">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Category</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Trending News</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Recent News</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Clubs Ranking</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sports Article</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle d-block d-md-none">
+                <span>&#9776;</span>
+            </div>
+            <div class="search-bar d-none d-md-flex">
+                <input type="text" class="form-control" placeholder="Search">
+                <button id="search-toggle" class="btn btn-outline-secondary">&#128269;</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="main-banner container mt-4">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2>Top Scorer to the Final Match</h2>
+                            <p>The EuroLeague Finals Top Scorer is the individual award for the player that gained the highest points in the EuroLeague Finals.</p>
+                            <a href="#" class="btn btn-primary">Continue Reading</a>
+                        </div>
+                        <div class="col-md-6">
+                            <!-- Placeholder Image -->
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2>Another Headline</h2>
+                            <p>Some description for the second slide.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                        <div class="col-md-6">
+                            <!-- Placeholder Image -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+    <section class="container mt-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="image-placeholder.jpg" class="card-img-top" alt="Football">
+                    <div class="card-body">
+                        <h5 class="card-title">Football</h5>
+                        <p class="card-text">Some description about Football.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="image-placeholder.jpg" class="card-img-top" alt="Basketball">
+                    <div class="card-body">
+                        <h5 class="card-title">Basketball</h5>
+                        <p class="card-text">Some description about Basketball.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="image-placeholder.jpg" class="card-img-top" alt="Car Sport">
+                    <div class="card-body">
+                        <h5 class="card-title">Car Sport</h5>
+                        <p class="card-text">Some description about Car Sport.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid bg-dark text-white py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>About Sport News</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel ligula id nisi malesuada fermentum.</p>
+                </div>
+                <div class="col-md-6">
+                    <h5>Follow Us</h5>
+                    <div class="d-flex">
+                        <a href="#" class="text-white mr-3">Facebook</a>
+                        <a href="#" class="text-white mr-3">Twitter</a>
+                        <a href="#" class="text-white">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
